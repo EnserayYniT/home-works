@@ -3,3 +3,142 @@
     margin: 0;
     box-sizing: border-box;
 }
+.body{
+    background-color: rgb(227, 227, 227);
+    color: rgb(255, 255, 255);
+    height: 170vh;
+    font-style: italic;
+}
+header{
+    background-color: rgb(29, 117, 61);
+    width: 50%;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    line-height: 30px;
+    left: 25%;
+    border-radius: 20px;
+    top: 20px;
+    padding: 10px;
+}
+.header-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    bottom: 10px;
+    top: 1px;
+    border: solid 10px rgb(29, 117, 61);
+    z-index: 100;
+}
+.site-window{
+    background-color: rgb(37, 145, 76);
+    width: 70%;
+    border-radius: 30px;
+    position: relative;
+    top: 70px;
+    left: 30px;
+    padding: 10px;
+}
+.site-window{
+    display: grid;
+    grid-template: 1fr 1fr/ 1fr 1fr;
+    gap: 15px;
+}
+.product{
+    background-color: rgb(29, 117, 61);
+    border-radius: 30px;
+}
+.pizza{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid rgb(29, 117, 61);
+    z-index: 100;
+}
+.text{
+    position: relative;
+    text-align: center;
+    bottom: 155px;
+    background-color: rgb(42, 153, 83);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    left: 50px;
+}
+.structure-name{
+    position: relative;
+    text-align: center;
+    bottom: 105px;
+    background-color: rgb(42, 153, 83);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    right: 95px;
+    
+}
+.structure{
+    width: 300px;
+    height: 230px;
+    position: relative;
+    text-align: center;
+    bottom: 95px;
+    background-color: rgb(42, 153, 83);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
+    left: 190px;
+}
+.counter-wrapper{
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 400px;
+    bottom: 50px;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(255, 217, 0);
+    transition: all 0.5s;
+    left: 380px;
+    border-radius: 40px;
+    cursor: grab;
+    color: rgb(42, 153, 83);
+}
+.items-control{
+    font-size: 30px;
+}
+.items-current{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+.cost-pizza{
+    position: relative;
+    left: 100px;
+    background-color: rgb(255, 217, 0);
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    top: 10px;
+    color: rgb(42, 153, 83);
+}
+.btn-add{
+    width: 140px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-style: italic;
+    background-color: rgb(255, 217, 0);
+    transition: all;
+    position: relative;
+    left: 25%;
+    bottom: 7%;
+    cursor: grab;
+    color: rgb(42, 153, 83);
+}
